@@ -1,14 +1,13 @@
 import React from 'react';
 import './header.css';
-
 function Header({ currentInfo, handlePageChange }) {
   return (
     <div>
-      <header class='row' className='header row'>
+      <header class='row' className='header row text-center'>  
         <h1 id='name' className='col p-2'>
           Melissa Vint
         </h1>
-        <nav className='navbar col justify-content-end'>
+        <nav className='navbar'>
           <a
             id='text'
             href='#About'
