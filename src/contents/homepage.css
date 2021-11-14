@@ -1,0 +1,23 @@
+
+
+.card {
+  text-align: center;
+  margin: 100px;
+  padding: 30px;
+  border-style:none;
+}
+
+.subtitle {
+  font-size: 50px;
+  border-style:none;
+}
+
+.subtitles {
+  font-size: 20px;
+  border-style:none;
+}
+
+.p {
+  font-size: 10px;
+  border-style:none;
+}

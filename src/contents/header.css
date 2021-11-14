@@ -1,0 +1,49 @@
+#name {
+  font-family: "Montserrat", sans-serif;
+  color: rgb(255, 255, 255);
+  text-shadow: 0 5px 5px #0000004b;
+  font-size: 90px;
+  margin: 30px;
+}
+
+#text {
+  padding-top: 15px;
+  display: inline-block;
+  list-style-type: none;
+  display: block;
+  position: relative;
+  font-size: 25px;
+  color: rgb(255, 255, 255);
+  text-shadow: 0 5px 5px #0f0f0f4f;
+  font-family: "Montserrat", sans-serif;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 1000px) {
+  header {
+    font-size: 60px;
+    display: flexblock;
+    text-align: center;
+    justify-content: center;
+  }
+
+  #text {
+    font-size: 15px;
+    min-width: 10px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  header {
+    font-size: 30px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+  }
+
+  #text {
+    position: fixed;
+    display: flex;
+    font-size: 15px;
+  }
+}
