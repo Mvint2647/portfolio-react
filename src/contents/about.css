@@ -16,12 +16,10 @@
   border: 5px black dotted;
 }
 
-.linkemail {
-  color: rgb(255, 255, 255);
-  text-decoration: none;
-  font-size: 20px;
-  display: inline-block;
-  text-align: center;
-  margin-top: 50px;
+p{
+  margin-left:50px;
+  margin-right:50px;
+  flex:auto;
+  border-left:1px solid green ;
+  border-right:1px solid green  ;
 }
-

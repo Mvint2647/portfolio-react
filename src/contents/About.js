@@ -1,7 +1,7 @@
 import React from 'react';
 import './about.css';
 import Icon from '../images/Business-Card.jpg';
-import { CardLink } from 'reactstrap';
+import { CardBody } from 'reactstrap';
 
 function About() {
   return (
@@ -9,21 +9,12 @@ function About() {
       <div id='aboutStyle'>
         <h1>About Me</h1>
         <img id='Mybusiness' src={Icon} alt='buisness-card' />
-        <p>
-          Hello, my name is Mel. I am 25 and consider myself to be a creative
-          individual.{' '}
-        </p>
-        <p>I am hoping to excel in Web Development to combine my skills.</p>
-        <p>
-          My ultimate goal when working with clients/businesses are to make
-          their ideas come alive!
-        </p>
+        <CardBody>
+        <p>Certificate in full stack web development from UNC Charlotte and desire for a role in front-end web development. Skills include JavaScript, CSS, React.js, and responsive web design with two years of graphic design education at SCC. Strengths include meeting deadlines, creativity, and teamwork.</p>
+        <p>Successfully rebranded an organization, which increased exposure and social media following using data information. Used graphic design to help redesign as well as marketing to grow more connections!</p> 
+        <p>Passionate about approaching programming challenges from different angles and collaborating with others to create meaningful web applications. Excited to develop responsive websites. Positioned to provide unique perspectives on how end users interact with websites and software platforms by leveraging background in digital marketing.</p>
+        </CardBody>
         <div>
-         
-            <CardLink className='text-success text-decoration-none' a href='Melissavinny1133@gmail.com'>
-              {'Melissavinny1133@gmail.com'}
-            </CardLink>
-      
         </div>
       </div>
     </div>
