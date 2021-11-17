@@ -28,8 +28,8 @@ function Contact() {
           Submit
         </button>
       </form>
-      <div>
-      <CardLink className='text-success  text-decoration-none' a href='Melissavinny1133@gmail.com'>
+      <div className="email">
+      <CardLink className='text-success text-center text-decoration-none' a href='Melissavinny1133@gmail.com'>
               {'Melissavinny1133@gmail.com'}
             </CardLink>
       </div>
